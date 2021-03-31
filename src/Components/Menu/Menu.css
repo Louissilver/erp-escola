@@ -2,7 +2,7 @@
   background-color: #060b26;
   height: 80px;
   display: flex;
-  justify-content: start;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -10,6 +10,24 @@
   margin-left: 2rem;
   font-size: 2rem;
   background: none;
+  display: flex;
+  align-items: center;
+}
+
+.menu-logo {
+  margin-right: 2rem;
+  font-size: 1.5rem;
+  background: none;
+  border: 2px solid white;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.menu-texto {
+  font-size: 1rem;
+  background: none;
+  color: white;
 }
 
 .menu-lista {
